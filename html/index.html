@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>List</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+<div class="data-container">
+    <div class="search-bar">
+        <span class="title" id="pageTitle"></span>
+        <div class="search-container">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search...">
+            <span class="close-btn">❌</span>
+        </div>
+    </div>
+    <div class="category-container">
+        <table class="category" id="categoryTable">
+        </table>
+    </div>
+    <div class="data">
+        <div class="data-inner">
+            <table id="dataTable">
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="full-text-overlay" id="fullTextOverlay">
+    <span class="close-full-text-btn" id="closeFullTextBtn">❌</span>
+    <div class="full-text-overlay-content" id="fullTextContent"></div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
