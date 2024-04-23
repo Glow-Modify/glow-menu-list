@@ -18,7 +18,7 @@ TEMPLATE:
 			{"Text", "Text", "Text", {{text = "Button 1", id = "button4"}}},     
 		}
 	}
-	local Menu = OpenMenuList(data)
+	local Menu = exports['glow-menu-list']:OpenMenuList(data)
 	if Menu.ButtonData == 'button1' then
 		--Your Code
 	end
